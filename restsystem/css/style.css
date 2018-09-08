@@ -1,0 +1,71 @@
+@charset "utf-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css); 
+div,p,h2,h1{
+	font-family: 'Noto Sans TC', sans-serif;  
+	}
+/* CSS Document */
+#bttLogin{
+  position:relative;
+  width:200px;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+  border-radius:3px;
+  background:#5ad;
+  color:#fff;
+  cursor:pointer;
+}
+#add_user{
+  position:relative;
+  width:100px;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+  border-radius:3px;
+  background:#5ad;
+  color:#fff;
+  cursor:pointer;
+}
+#updatebtn{
+  position:relative;
+  width:100px;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+  border-radius:3px;
+  background:#5ad;
+  color:#fff;
+  cursor:pointer;
+}
+#basic{
+	border:1px #66CC66 solid;
+	border-radius:10px;
+	background-color:#6CC;
+	
+	
+	
+	}
+#abilities a:link{
+	color:#FFF;
+	
+	}
+#abilities a:visited{
+	color:#FFF;
+	
+	}
+a{
+    text-decoration: none;
+}
+ a:visited,a:link{
+	color:#F60;
+	
+	}
+th,td{
+	border:1px solid #990;
+	
+	}
+table {border-collapse:collapse;}
+#listtable{
+	font-size:14px;
+	border:1px solid #990;
+	}

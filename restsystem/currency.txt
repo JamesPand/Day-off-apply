@@ -1,0 +1,4 @@
+<td>美金</td> <td></td> <td></td>
+<td>日元</td> <td></td> <td></td>
+<td>澳幣</td> <td></td> <td></td>
+<td colspan=3 align=center>2018 09-07, 16:50</td>
