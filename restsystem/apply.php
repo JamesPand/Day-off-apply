@@ -104,7 +104,7 @@ require 'checklogin.php';
  		if(!isset($_POST['nomail'])){
  			dayoff_mail($mailToname,$mailTo,$mailSubject,$mailContent);
  		}else{
- 			dayoff_mail($mailToname,"evp@prismabiotech.com.tw,nina@prismabiotech.com.tw",$mailSubject." 補單",$mailContent);
+ 			dayoff_mail($mailToname,"",$mailSubject." 補單",$mailContent);
  		}
 		
 
