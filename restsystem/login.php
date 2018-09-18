@@ -110,7 +110,6 @@ function openSon()
 }
   </script>
 </p>
-<h5> >&emsp;&emsp;&emsp;<a href="javascript:openSon()" >人事行政局2017年行事曆</a></h5>
 <!--
 最新匯率
 <table width="308" border="1">
@@ -145,7 +144,16 @@ require 'func/apply_func.php';
   </div>
   <div id="footer">
 <p>Design by Daemon</p>
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-h9+9-7-25+4m"
+     data-ad-client="ca-pub-1688793789017436"
+     data-ad-slot="6316439950"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
   <!-- end #footer --></div>
 <!-- end #container --></div>
 </form>
