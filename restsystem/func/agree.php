@@ -30,7 +30,7 @@
 			
 			//底下為通過後寄給人事小姐
 			$mailToname="Nina";
-			$mailTo="nina@prismabiotech.com.tw,".get_user_email($applyer);  //目前固定為敘慧姐
+			$mailTo=get_user_email($applyer);  //
 			$mailSubject=get_user_chinese_name($applyer)."請假 ".get_catname($cat).$dayoff."天 已通過";
 			$mailContent =get_user_chinese_name($applyer)." 於".$startdate." ~ ".$enddate."請假".$dayoff."天。\r<br> 詳情請到 http://192.168.1.9/restsystem  查看" ;
 			dayoff_mail($mailToname,$mailTo,$mailSubject,$mailContent);
