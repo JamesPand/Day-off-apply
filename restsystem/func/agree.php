@@ -58,12 +58,12 @@
 		if ($aggreement=="O"){
 		mb_internal_encoding("utf-8");
 				//$to=get_supervisor_email($_POST['supervisor']);
-				$to="nina@prismabiotech.com.tw";
+				$to="";
 				$subject=mb_encode_mimeheader(get_user_chinese_name($_SESSION['usernumber'])." ".get_catname($_POST['cat']).$_POST['days']."天 申請","utf-8");
 				$message="請到 http://192.168.1.9/restsystem/ 查看申請";
 				$headers="MIME-Version: 1.0\r\n";
 				$headers.="Content-type: text/html; charset=utf-8\r\n";
-				$headers.="From:".mb_encode_mimeheader("請假系統","utf-8")."<monasd1si@gmail.com>\r\n";
+				$headers.="From:".mb_encode_mimeheader("請假系統","utf-8")."<>\r\n";
 				//mail($to,$subject,$message,$headers);
 		        mail($to,$subject,$message,$headers);
 		}
