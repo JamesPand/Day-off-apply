@@ -59,7 +59,7 @@ function dayoff_mail($mailToname,$mailTo,$mailSubject,$mailContent){
 				//$mailToname=$a;   //收件者
   				//$mailTo=$b;   //收件者
   				$mailfromname="請假通知";  //寄件者姓名
- 				 $mailfrom="daemon.shih@prismabiotech.com.tw";  //寄件者電子郵件
+ 				 $mailfrom="";  //寄件者電子郵件
  				// $mailSubject=$c;
  				//$mailContent =$d;
   //以下內容不要改
