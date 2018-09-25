@@ -59,7 +59,23 @@ function dayoff_mail($mailToname,$mailTo,$mailSubject,$mailContent){
 				//$mailToname=$a;   //收件者
   				//$mailTo=$b;   //收件者
   				$mailfromname="請假通知";  //寄件者姓名
- 				 $mailfrom="";  //寄件者電子郵件
+ 				 $mailfrom="daemon.shih@prismabiotech.com.tw";  //寄件者電子郵件
+ 				// $mailSubject=$c;
+ 				//$mailContent =$d;
+  //以下內容不要改
+  				$mailTo="=?UTF-8?B?".base64_encode($mailToname)."?= <" . $mailTo . ">";
+ 				 $mailfrom="=?UTF-8?B?" . base64_encode($mailfromname) . "?= <" . $mailfrom . ">";
+ 				 $mailSubject = "=?UTF-8?B?".base64_encode($mailSubject)."?=";  //主旨編碼成UTF-8
+ 				 mail($mailTo,$mailSubject,$mailContent,"Mime-Version: 1.0\nFrom:" . $mailfrom . "\nContent-Type: text/html ; charset=UTF-8");
+					
+	}
+
+function group_mail($mailToname,$mailTo,$mailSubject,$mailContent,$mailfromname,$mailfrom){
+	
+				//$mailToname=$a;   //收件者
+  				//$mailTo=$b;   //收件者
+  				//$mailfromname="請假通知";  //寄件者姓名
+ 				 //$mailfrom="daemon.shih@prismabiotech.com.tw";  //寄件者電子郵件
  				// $mailSubject=$c;
  				//$mailContent =$d;
   //以下內容不要改
